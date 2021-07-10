@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/logo.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive Website Travel</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo"><img src="assets/img/logo.png" alt=""></a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Discover</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/home1.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <h1 class="home__data-title">Explore The <br> Best <b>Delicious <br> Food</b></h1>
+                        <a href="https://www.chefmohamed.com/" class="button">Explore</a>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.instagram.com/chef.mohamedbh/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/chef.mohamedbh/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">Find out the best Food in Bahrain</span>
+                            <a href="https://www.chefmohamed.com/index.html" class="button button--flex button--link home__info-button">
+                                More <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="assets/img/home2.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">More Information <br> About The Best Food</h2>
+                        <p class="about__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, culpa iusto nisi alias quos, distinctio necessitatibus, mollitia aliquid doloribus non repellendus quod dolorem facere nihil. Veniam tenetur totam labore explicabo, perspiciatis nulla quae.</p>
+                        <a href="https://www.chefmohamed.com/menu.html" class="button">Order Now</a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about1.jpg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about2.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Discover the most <br> Delicious Food</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/about1.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Caesar Salad</h2>
+                                <span class="discover__description">2.400 BD</span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/about2.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Meat Kebab</h2>
+                                <span class="discover__description">1.8 BD</span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 3 ====================-->
+
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/about3.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Rocca Salad W/Chicken</h2>
+                                <span class="discover__description">2.700 BD</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--==================== VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title">Video Tour</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">Find out more with our video of the most beautiful and 
+                        pleasant places for you and your family.
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/61418380_336333060386234_8374691524152303817_n.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--===================== timeline =================-->
+            <div class="timeline">
+                <ul>
+                  <li>
+                    <div class="content">
+                      <h3>The flight crew of my life:</h3>
+                      <p>All the beautiful things of dreams and ambitions in our lives may be late for their realization.. However, God grants us people who share with us in overcoming difficulties and breaking barriers, just as God gave me the constant encouragement of my parents and a study friend with whom I differ a lot in ideas, but we are similar in what we feel And what we want to achieve.</p>
+                    </div>
+                    <div class="time">
+                      <h4>1</h4>
+                    </div>
+                  </li>
+                  
+                  <li>
+                    <div class="content">
+                      <h3>Flight blade: (1999 AD) ..</h3>
+                      <p>This year reminds me of the warm nights with my brothers in the kitchen of our house.. I was good at making eggs at the time!</p>
+                    </div>
+                    <div class="time">
+                      <h4>1999</h4>
+                    </div>
+                  </li>
+                  
+                  <li>
+                    <div class="content">
+                      <h3>First stop:</h3>
+                      <p>The stage of transition from cooking eggs of all kinds to the stage of grilling pieces of meat (tikka) in a Ramadan atmosphere full of goodness and hope for a path that I found long and in which I found myself!</p>
+                    </div>
+                    <div class="time">
+                      <h4>2006</h4>
+                    </div>
+                  </li>
+                  
+                  <li>
+                    <div class="content">
+                      <h3>details of the trip:</h3>
+                      <p>The launch date is approaching, accompanied by the captain of the flight, "the chef", who holds (Aircraft Electronics Engineering Certificate, with distinction, with honors) and the winner of the (Wanted Chef) award in 2014.</p>
+                    </div>
+                    <div class="time">
+                      <h4>2012</h4>
+                    </div>
+                  </li>
+                  
+                  <li>
+                    <div class="content">
+                      <h3>And dream come true</h3>
+                      <p>Opening of "HisHat" Restaurant
+                        It was not the last dream or ambition on which passion stops.</p>
+                    </div>
+                    <div class="time">
+                      <h4>2018</h4>
+                    </div>
+                  </li>
+                  
+                  <li>
+                    <div class="content">
+                      <h3>Attention</h3>
+                      <p>We inform you that a new flight bearing the number (2020 AD) has been included. All connoisseurs and those interested in the culinary world should go to "Chef Mohamed Marhoon" restaurant.</p>
+                    </div>
+                    <div class="time">
+                      <h4>2020</h4>
+                    </div>
+                  </li>
+                  <div style="clear:both;"></div>
+                </ul>
+              </div>
+            <!--==================== PLACES ====================-->
+            <section class="place section" id="place">
+                <h2 class="section__title">Choose Your Place</h2>
+
+                <div class="place__container container grid">
+                    <!--==================== PLACES CARD 1 ====================-->
+                    <div class="place__card">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14318.802213069699!2d50.5781499!3d26.2064176!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x89f93cde91e95e25!2sBahrain%20Businesswomen%20Society!5e0!3m2!1sen!2sbh!4v1625944503557!5m2!1sen!2sbh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SUBSCRIBE ====================-->
+            <section class="subscribe section">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <h2 class="section__title subscribe__title">Contact Us<br> For More Information</h2>
+                        <p class="subscribe__description">Our Contact This Number 7799 5055</p>
+    
+                        <form action="" class="subscribe__form">
+                            <input type="email" placeholder="Enter email" class="subscribe__input">
+    
+                            <button class="button">
+                                Subscribe
+                            </button>
+                        </form>
+                        <textarea placeholder="Write Your comment" id="" cols="30" rows="10" class="subscribe__form"></textarea>
+                        <div class="btn2">
+                            <button class="button 2">
+                                Subscribe
+                            </button>
+                        </div>
+                </div>
+            </section>
+            
+            <!--==================== SPONSORS ====================-->
+            <section class="sponsor section">
+                <div class="sponsor__container container grid">
+                    <div class="sponsor__content">
+                        <a href="https://www.instagram.com/_9_f_a/">
+                            <img class="sponsor__img" src="assets/img/9fa.jfif">
+                        </a>
+                    </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Chef Mohamed</h3>
+                        <p class="footer__description">Eat the best <br> Food, 
+                            in Bahrain.
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">About Us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Features</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">New & Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Company</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Team</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Plan y Pricing</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Become a member</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">FAQs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Support Center</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2021 9Fa. All rigths reserved.</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
